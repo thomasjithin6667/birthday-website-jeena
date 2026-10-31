@@ -1,0 +1,17 @@
+body{overflow-x:clip}
+.finale{overflow:clip}
+.motion-ready .memory .photo-wrap{opacity:1;transform:none;transition:none}
+.motion-ready .memory{perspective:1100px}
+.motion-ready .photo{transform-origin:50% 65%;backface-visibility:hidden}
+.memory-spark{position:absolute;right:8%;top:12%;font-size:38px;color:var(--gold);pointer-events:none;opacity:.4}
+.memory:nth-child(even) .memory-spark{right:auto;left:6%}
+.orbit:after{content:'✦';position:absolute;top:20%;left:10%;color:var(--gold);font-size:23px}
+.orbit2:after{top:75%;left:9%;font-size:14px}
+.hero-number{transform-origin:center}
+#counter b{display:inline-block;min-width:1.15em;text-align:center}
+.wish-ring{position:absolute;inset:-65px -40px;border:1px solid var(--gold);border-radius:50%;opacity:0;pointer-events:none}
+.candle-smoke{position:absolute;top:-30px;left:8px;font:35px Georgia;color:#e9e1d4;opacity:0;pointer-events:none}
+#count{transform-origin:center}
+.photo:focus-visible{outline:3px solid var(--gold);outline-offset:8px}
+@media(max-width:650px){.memory-spark{font-size:26px;right:8%;top:30px}.memory:nth-child(even) .memory-spark{left:8%}}
+@media(prefers-reduced-motion:reduce){.memory-spark,.candle-smoke,.wish-ring{display:none}.hero-number{opacity:1!important;transform:none!important}}

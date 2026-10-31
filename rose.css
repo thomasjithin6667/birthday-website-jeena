@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&display=swap');
+:root{--ink:#c9848c;--paper:#fff5e8;--gold:#fff1dc;--muted:#673e45}
+body{background:#c9848c;color:var(--paper)}
+#stars,.orbit{display:none}
+header{padding:20px 6%;align-items:center}
+.brand{font:italic 35px 'Cormorant Garamond',Georgia}
+.brand span{display:none}
+.edition{color:#fff5e8;letter-spacing:2px;font-size:9px}
+header button{background:transparent;border-color:#fff5e866;color:var(--paper);font-size:12px}
+.rose-hero{height:100svh;min-height:820px;max-height:1100px;padding:120px 20px 0;isolation:isolate}
+.rose-hero>.eyebrow{position:relative;z-index:6;letter-spacing:3px;font-size:9px;margin:0}
+.rose-hero h1{position:relative;z-index:6;margin:28px 0 0;line-height:.98}
+.birthday-script{display:block;font:400 clamp(55px,8vw,90px)/1.2 'Great Vibes',cursive;text-transform:none}
+.birthday-name{display:block;font:600 clamp(90px,13vw,148px)/1 'Bodoni Moda',Georgia,serif;letter-spacing:-5px;margin-top:4px}
+.rose-hero .hero-number{position:absolute;top:40%;left:50%;transform:translateX(-50%);font:italic 390px/.8 'Cormorant Garamond',Georgia;color:#fff5e81f;letter-spacing:-30px;z-index:0;pointer-events:none}
+.hero-cake-layer{position:absolute;top:30%;left:0;right:0;margin:auto;width:480px;max-width:80vw;z-index:4;pointer-events:none}
+.hero-cake{display:block;width:100%;filter:drop-shadow(0 35px 17px #6c2c3e40)}
+.hero-bottom{position:absolute;bottom:35px;left:0;right:0;z-index:7}
+.rose-hero .intro{color:#fff5e8;font-size:13px;line-height:1.5;margin:0 0 18px}
+.start{background:var(--paper);color:#783d48;box-shadow:0 7px 25px #7f3c4820;letter-spacing:.2px}
+.rose-hero .start{padding:12px 23px;font-size:11px}
+.rose-hero .small{color:#fff5e8b3;font-size:7px;letter-spacing:2px;margin:18px 0 0}
+.hero-berries{position:absolute;inset:0;pointer-events:none;z-index:5}
+.float-layer{position:absolute;pointer-events:none}
+.float-object{display:block;width:100%;filter:drop-shadow(4px 18px 8px #73384330)}
+.berry-one{width:105px;top:14%;left:9%;transform:rotate(-23deg)}
+.berry-two{width:200px;top:9%;right:5%;filter:blur(3px);transform:rotate(22deg)}
+.berry-three{width:265px;bottom:13%;left:-85px;filter:blur(4px);transform:rotate(-25deg)}
+.berry-four{width:210px;bottom:20%;right:-50px;filter:blur(2px);transform:rotate(35deg)}
+.journey-intro{padding:100px 25px 30px;background:#f8e8e1;color:#783d48}
+.journey-intro .eyebrow{color:#96555e}
+#memories{background:#f8e8e1;color:#6e3944;overflow:clip}
+.memory{min-height:95svh;padding:110px 7%}
+.memory .copy>p{color:#79535a}
+.memory .tag{color:#8b424f}
+.memory-num{color:#bb78835c}
+.memory h2{color:#7e3e4b}
+.photo{background:#fff9ee;box-shadow:0 24px 50px #8c4d6129;padding:12px 12px 26px}
+.photo-wrap:before{display:none}
+.photo .caption{font:26px/1.1 'Great Vibes',cursive;color:#955a66}
+.memory:nth-child(3n+2){background:#eed6d3}
+.memory:nth-child(3n){background:#f3dfd6}
+.memory-spark{width:100px;height:auto;font-size:0;right:-12px;top:13%;filter:blur(1px);opacity:.8;z-index:0}
+.memory:nth-child(even) .memory-spark{left:-25px;right:auto}
+.memory-spark img{width:100%;display:block}
+.memory .photo-wrap,.memory .copy{position:relative;z-index:1}
+.family{background:#b9717e;color:#fff4e8}
+.family>p:last-child,.family .eyebrow,.family-names span{color:#fff2e5}
+.family-names p{font-family:'Cormorant Garamond',Georgia;font-size:34px}
+.family h2,.finale h2{font-family:'Cormorant Garamond',Georgia}
+.finale{background:#c9848c;max-width:none;position:relative;padding-bottom:130px}
+.finale>p{color:#fff4e8}
+.cake{width:310px;max-width:85vw;margin:70px auto 15px;height:330px}
+.finale-cake{position:absolute;width:100%;left:0;top:18px;filter:drop-shadow(0 20px 15px #71334233)}
+.candles{position:absolute;z-index:2;left:0;right:0;top:5px;gap:12px}
+.candle{font-size:54px;color:#fff4e8;text-shadow:1px 2px #98515f}
+.candle i{width:12px;height:23px;left:11px;top:-24px}
+.candle-smoke{color:#fff4e8}
+#mic{color:#fff5e8}
+#wish p{color:#fff4e8}
+#wish h2 em{font:70px 'Great Vibes',cursive}
+#counter{background:#8d4b58d9;border:1px solid #fff0e43d;box-shadow:0 5px 20px #8d4b5820;backdrop-filter:blur(15px)}
+#counter small{color:#fff1dfb0}
+#progress{background:#783d48}
+#music{background:#fff5e8;color:#783d48}
+#music button,.upload{background:#8d4b58;color:#fff5e8}
+dialog{background:#fff5e8;color:#783d48;border:0;border-radius:5px}
+dialog button{color:#783d48}
+dialog::backdrop{background:#54202cdd}
+@media(min-width:900px){.rose-hero{min-height:950px}.hero-cake-layer{width:470px;top:30%}.rose-hero .hero-number{font-size:530px;top:38%}.hero-bottom{bottom:35px}}
+@media(max-width:650px){
+header{padding:18px 22px}.edition{font-size:7px;letter-spacing:1.6px}.rose-hero{height:100svh;min-height:790px;max-height:950px;padding-top:120px}.rose-hero>.eyebrow{font-size:8px;letter-spacing:2px}.rose-hero h1{margin-top:32px}.birthday-script{font-size:51px}.birthday-name{font-size:89px;letter-spacing:-4px}.hero-cake-layer{top:31%;width:350px;max-width:94vw}.rose-hero .hero-number{top:43%;font-size:285px;letter-spacing:-20px}.hero-bottom{bottom:38px}.berry-one{width:65px;top:11%;left:5%}.berry-two{width:120px;right:-20px;top:15%;filter:blur(3px)}.berry-three{width:190px;left:-95px;bottom:22%;filter:blur(3px)}.berry-four{width:155px;right:-70px;bottom:27%;filter:blur(2px)}.memory{min-height:auto;padding:100px 32px 75px;gap:35px}.memory .photo{max-width:390px;margin:auto}.memory h2{font-size:39px}.memory-num{font-size:74px}.photo img{max-height:55svh}.photo .caption{font-size:23px}.journey-intro{padding:80px 25px 25px}.memory-spark{width:85px;top:35px;right:-20px}.family{padding:100px 25px}.family h2{font-size:56px}.finale{padding:110px 24px 130px}.finale h2{font-size:58px}.cake{height:310px;width:290px;margin-top:65px}
+}
+.photo-orientation{display:block}
+.photo-orientation.sideways,.lightbox-photo.sideways{position:relative;display:block;aspect-ratio:4/3}
+.photo .sideways img,dialog .sideways img{position:absolute;left:50%;top:50%;width:75%;height:133.333333%;max-height:none;max-width:none;object-fit:contain;transform:translate(-50%,-50%) rotate(-90deg)}
+.lightbox-photo.sideways{width:min(85vw,100svh);margin-top:35px}
+.journey-waiting,.countdown-active,.hero-held,.time-travelling{overflow:hidden}
+.hero-held .hero{position:fixed;inset:0;height:100svh;min-height:100svh;max-height:none;z-index:10;background:#c9848c}
+.hero-held main{padding-top:100svh}
+.hero-held header{z-index:15}
+.hero-held #counter{opacity:0;pointer-events:none}
+.hero-held .hero .start{animation:journey-breathe 2.8s ease-in-out infinite}
+.time-travelling .hero .start{animation:none;pointer-events:none}
+@keyframes journey-breathe{0%,100%{scale:1;box-shadow:0 0 0 0 #fff5e83b,0 7px 25px #7f3c4820}50%{scale:1.055;box-shadow:0 0 0 12px #fff5e800,0 12px 35px #7f3c4838}}
+.time-portal{position:fixed;inset:0;z-index:10000;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:40px;background:#f8e8e1;pointer-events:all;overflow:hidden}
+.portal-photos{position:relative;width:min(65vw,310px);aspect-ratio:3/4;perspective:1100px;transform-style:preserve-3d}
+.portal-photos img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff9ee;padding:10px 10px 28px;border:1px solid #ead8ca;box-shadow:0 20px 60px #783d4833;transform:rotate(var(--tilt));backface-visibility:hidden}
+.time-portal p{font:italic 36px 'Cormorant Garamond',Georgia;color:#783d48;text-align:center;margin:0 20px}
+@media(max-height:740px){.hero-held .hero{padding-top:85px}.hero-held .hero h1{margin-top:15px}.hero-held .birthday-script{font-size:43px}.hero-held .birthday-name{font-size:64px}.hero-held .hero-cake-layer{width:280px;top:28%}.hero-held .hero-bottom{bottom:25px}.hero-held .hero .intro{font-size:11px;margin-bottom:10px}.hero-held .hero .small{margin-top:12px}}
+@media(prefers-reduced-motion:reduce){.hero-held .hero .start{animation:none}.time-portal{opacity:0}.memory h2:focus{outline:none}}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+#journeyWelcome{position:fixed;inset:0;margin:0;padding:24px;width:100vw;height:100dvh;max-width:none;max-height:none;border:0;border-radius:0;background:#a95e7138;color:#fff5e8;overflow:auto;opacity:1;transition:opacity .85s ease}
+#journeyWelcome[open]{display:grid;place-items:center}
+#journeyWelcome::backdrop{background:#8246535c;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);transition:backdrop-filter .85s ease,background .85s ease}
+.welcome-content{text-align:center;max-width:520px;padding:30px 0}
+.welcome-eyebrow{font-size:9px;letter-spacing:2.7px;margin:0 0 30px}
+.welcome-years{font:500 clamp(110px,22vmin,180px)/.85 'Bodoni Moda',Georgia;color:#fff5e8;text-shadow:0 10px 30px #783d4820}
+#welcomeTitle{font:400 clamp(45px,10vmin,68px)/.98 'Cormorant Garamond',Georgia;margin:20px 0 25px}
+#welcomeTitle em{color:#fff5e8;font-weight:400}
+#welcomeMessage{font-size:14px;line-height:1.8;color:#fff5e8;margin:0 0 32px}
+#startJourney{float:none;padding:16px 30px;gap:36px;min-width:210px;justify-content:space-between}
+.welcome-sound{font-size:10px;letter-spacing:1.4px;margin:18px 0 0;color:#fff5e8d9}
+.journey-starting #journeyWelcome{opacity:0;pointer-events:none}
+.journey-starting #journeyWelcome::backdrop{backdrop-filter:blur(0);-webkit-backdrop-filter:blur(0);background:#82465300}
+.hero h1:focus{outline:none}
+@media(prefers-reduced-motion:reduce){#journeyWelcome,#journeyWelcome::backdrop{transition:none}}
+#birthdayCountdown{position:fixed;inset:0;margin:0;padding:0;width:100vw;height:100dvh;max-width:none;max-height:none;border:0;border-radius:0;background:transparent;overflow:hidden;color:#fff5e8}
+#birthdayCountdown::backdrop{background:#64323ebd;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.countdown-stage{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:20px;padding:24px}
+.countdown-label{font-size:10px;letter-spacing:3px;margin:0!important;color:#fff5e8}
+.countdown-depth{perspective:1000px;perspective-origin:50% 50%;width:100%;height:55vmin;display:grid;place-items:center;transform-style:preserve-3d}
+.countdown-number{display:block;font:600 clamp(150px,50vmin,380px)/1 'Bodoni Moda',Georgia,serif;color:#fff5e8;text-shadow:0 2px #e6c9bd,0 4px #d3a6a2,0 6px #ba7c87,0 14px 28px #43172580;transform-origin:center;backface-visibility:hidden}
+.countdown-number.countdown-word{font:400 clamp(66px,20vmin,160px)/1 'Great Vibes',cursive}
+.countdown-hint{font:italic 22px 'Cormorant Garamond',Georgia;margin:0!important;color:#fff5e8}
+@media(prefers-reduced-motion:reduce){.countdown-number{text-shadow:0 3px 12px #43172566}}
+@media(max-width:650px){.hero-bottom{bottom:60px}}
+@media(prefers-reduced-motion:reduce){.rose-hero .hero-number{opacity:1!important;transform:translateX(-50%)!important}.float-object,.hero-cake{transform:none!important}.memory-spark{display:block}}
+@media(max-width:650px){.birthday-name{font-size:clamp(54px,17vw,89px);letter-spacing:-3px}}
+/* Independent scale keeps button breathing separate from Motion transforms. */
+body button,body a.start,body #wish a{--breath-peak:1.04;animation:control-breathe 3s ease-in-out infinite;transform-origin:center}
+body button.photo{--breath-peak:1.012;animation-duration:4s}
+body #wish a{display:inline-block}
+body button:disabled,body button:active,body a.start:active,body #wish a:active,body [aria-disabled="true"]{animation:none;scale:1}
+@keyframes control-breathe{0%,100%{scale:1}50%{scale:var(--breath-peak,1.04)}}
+@media(prefers-reduced-motion:reduce){body button,body a.start,body #wish a,.hero-held .hero .start{animation:none!important;scale:1}}
